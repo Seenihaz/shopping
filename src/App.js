@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import './App.css';
+import TextField from '@mui/material/TextField';
+import Signup from './signup';
+import Login from './Login'
+function App(){
+  return(
+    <div className="container"  >
+      {/* <form>
+        <h1>Registration Form</h1>
+        <div className="ui divider"></div>
+        <div className="ui form">
+          <div className="field">
+          <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+          </div>
+          
+          <div className="field">
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Enter password"></input>
+          </div>
+
+          <div className="field">
+            <label>Password</label>
+            <input type="password" name="copassword" placeholder="Enter password"></input>
+          </div>
+        </div>
+      </form> */}
+     
+      <Signup />
+      
+      
     </div>
-  );
+  )
 }
 
 export default App;
