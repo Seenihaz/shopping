@@ -12,7 +12,7 @@ const Signup=()=>{
             
         <Card sx={{ minWidth: 300 }}>
       <CardContent style={{justifyContent:"center", background: "linear-gradient(skyblue,white)"}}>
-      <h1 style={{textAlign:"center", fontSize:"20px"}}>Register</h1>
+      <h1 style={{textAlign:"center", fontSize:"20px"}}>Register Your fields</h1>
       <TextField id="outlined-basic" label="Username" variant="outlined" /><br></br>
       <TextField id="outlined-basic" label="Email" variant="outlined" /><br></br>
       <TextField id="outlined-basic" label="Password" variant="outlined" /><br></br>
